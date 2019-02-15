@@ -10,6 +10,7 @@ const CharacterCard = props => {
       <div className="attr">
     <p>{props.character.gender}</p>
     <p>{props.character['birth_year']}</p>
+    <p>{props.character['hair_color']}</p>
     </div>
     </div>
   )
