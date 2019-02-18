@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid darkorchid;
+  min-width: 300px;
+  min-height: 300px;
+  margin: 5% auto;
+  background-color: black;
+  opacity: .7;
+}
+
+.CharList {
+  color: blue;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1% auto;
+}
+
+.nameStyle {
+  color: blue;
+  background-color: black;
+  opacity: .7;
+  /* width: 30%; */
+  margin: 0 auto;
+  padding: .5%;
+  width: 100%;
+}
+.nameStyle h2 {
+  
+}
+
+.attr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: lime;
+  background-color: black;
+  opacity: .7;
+  width: 100%;
+  height: 100%;
+}
+
+.attr p {
+  font-size: 26px;
+  font-style: italic;
+  margin: 3% auto;
+  
+}
+
